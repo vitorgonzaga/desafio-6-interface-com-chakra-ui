@@ -1,0 +1,22 @@
+{
+  "continents" : [
+    {
+      "id": 1,
+      "mainImageUrl": "",
+      "name": "Europa",
+      "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "qtyCountries": "50",
+      "qtyLanguages": "60",
+      "qtyCities": "27",
+      "cities": [
+        {
+          "id": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+          "cityName": "Londres",
+          "countryName": "Reino Unido",
+          "flagImageUrl": "https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
+        }
+      ]
+    }
+  ]
+}
