@@ -2,8 +2,11 @@
   margin-bottom: 40px;
 
   .mySwiper {
-    width: 1240px;
-    height: 450px;
+
+    @media (min-width: 800px) {
+      width: 1240px;
+      height: 450px;
+    }
 
     .swiper-slide {
       img {
@@ -55,6 +58,5 @@
       right: 20px;
       left: auto;
     }
-
   }
 }

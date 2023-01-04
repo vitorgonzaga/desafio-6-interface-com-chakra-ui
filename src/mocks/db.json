@@ -1,13 +1,13 @@
 {
   "continents" : [
     {
-      "id": 1,
-      "mainImageUrl": "",
+      "id": "europa",
+      "mainImageUrl": "https://images.unsplash.com/photo-1485756884019-5519df92d868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80",
       "name": "Europa",
       "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
-      "qtyCountries": "50",
-      "qtyLanguages": "60",
-      "qtyCities": "27",
+      "countries": "50",
+      "languages": "60",
+      "numberOfCities": "27",
       "cities": [
         {
           "id": 1,
@@ -15,6 +15,34 @@
           "cityName": "Londres",
           "countryName": "Reino Unido",
           "flagImageUrl": "https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+          "cityName": "Paris",
+          "countryName": "França",
+          "flagImageUrl": "https://img.freepik.com/free-vector/illustration-france-flag_53876-27099.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+          "cityName": "Roma",
+          "countryName": "Itália",
+          "flagImageUrl": "https://img.freepik.com/free-vector/illustration-italy-flag_53876-27098.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://images.unsplash.com/photo-1589382543648-741bd0d7d03f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "cityName": "Praga",
+          "countryName": "Republica Tcheca",
+          "flagImageUrl": "https://img.freepik.com/free-vector/illustration-czech-republic-flag_53876-27109.jpg?w=2000"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "cityName": "Amsterdã",
+          "countryName": "Holanda",
+          "flagImageUrl": "https://img.freepik.com/free-vector/illustration-netherlands-flag_53876-27103.jpg?w=2000"
         }
       ]
     }

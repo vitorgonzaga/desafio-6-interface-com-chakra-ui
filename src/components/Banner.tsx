@@ -23,6 +23,8 @@ export function Banner({ description, image, alt }: BannerProps) {
     }} >
     <Image
       src={image}
+      width={1920}
+      height={540}
       alt={`${alt}`}
       style={{
         filter: "brightness(0.6)",

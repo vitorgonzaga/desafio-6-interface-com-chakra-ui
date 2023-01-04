@@ -23,8 +23,8 @@ export default function Home() {
       </Center>
       <Flex h={205} >
         <Box h={101} mx='auto' my='auto'>
-          <Text fontWeight={500} fontSize={36} align='center'>Vamos nessa?</Text>
-          <Text fontWeight={500} fontSize={36} align='center'>Então escolha seu continente</Text>
+          <Text fontWeight={500} fontSize={[20, 36]} align='center'>Vamos nessa?</Text>
+          <Text fontWeight={500} fontSize={[20, 36]} align='center'>Então escolha seu continente</Text>
         </Box>
       </Flex>
       <Carousel />

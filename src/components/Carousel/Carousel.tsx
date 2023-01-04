@@ -8,10 +8,9 @@ import Oceania from '../../images/Oceania.jpg';
 import SouthAmerica from '../../images/SouthAmerica.jpg';
 
 
-import { Slide } from '../Slide';
+import { Slide } from '../Slide/Slide';
 
 import 'swiper/scss';
-// import 'swiper/scss/navigation';
 import { useRef } from 'react';
 import 'swiper/scss/pagination';
 import styles from './Carousel.module.scss';
@@ -20,37 +19,20 @@ import styles from './Carousel.module.scss';
 
 export function Carousel() {
 
-  // const prevElement = () => (<div className={styles.swiperButtonPrev}></div>)
-  // const nextElement = () => (<div className={styles.swiperButtonNext}></div>)
-
   const swiperNavPrevRef = useRef<HTMLDivElement>(null)
   const swiperNavNextRef = useRef<HTMLDivElement>(null)
-
-
 
   return (
     <div className={styles.container} >
       <Swiper
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        // navigation
-        // ================== using custom arrows =========================
         navigation={{
           prevEl: swiperNavPrevRef?.current,
           nextEl: swiperNavNextRef?.current
-          // prevEl: '.swiperButtonPrev',
-          // nextEl: '.swiperButtonNext'
         }}
-        // =================================================================
         slidesPerView={1}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-          el: '.swiper-pagination',
-          type: 'bullets',
-          renderBullet: function(index, className) {
-            return `<span class="${className}">${index + 1}</span>`;
-          },
-        }}
+        pagination={{ clickable: true }}
         centeredSlides
         keyboard
         // onSwiper={(swiper) => console.log(swiper)}
@@ -74,7 +56,7 @@ export function Carousel() {
           <Slide description='Asia' image={Asia} slug='asia'/>
         </SwiperSlide>
         <SwiperSlide>
-          <Slide description='Europe' image={Europe} slug='europe'/>
+          <Slide description='Europe' image={Europe} slug='europa'/>
         </SwiperSlide>
         <SwiperSlide>
           <Slide description='North America' image={NorthAmerica} slug='northamerica'/>

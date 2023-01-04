@@ -16,10 +16,15 @@ export function CityCard({
     border="1px solid rgba(255, 186, 8, 0.5)"
     borderRadius="4px"
   >
-    <CardHeader w="256px" padding="1px">
+    <CardHeader w="254px" padding={0}>
       <Image
         src={imageUrl}
         alt={cityName}
+        w="256px"
+        h="173px"
+        align={"center"}
+        fit={"cover"}
+        borderRadius="4px 4px 0px 0px"
       />
     </CardHeader>
     <CardBody>
@@ -36,7 +41,7 @@ export function CityCard({
             lineHeight="25px"
             color="darkText.500"
           >
-            Londres
+            {cityName}
           </Heading>
           <Text
             fontStyle="normal"
@@ -46,7 +51,7 @@ export function CityCard({
             color="infoText.500"
             mt="12px"
           >
-            Reino Unido
+            {countryName}
           </Text>
         </Box>
         <Avatar

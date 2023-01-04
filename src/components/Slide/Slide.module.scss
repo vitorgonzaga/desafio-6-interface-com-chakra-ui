@@ -1,0 +1,9 @@
+.slideImage {
+  filter: brightness(0.6);
+  object-fit: cover;
+
+  @media (min-width: 800px) {
+    width: 1240px;
+    height: 450px
+  }
+}
